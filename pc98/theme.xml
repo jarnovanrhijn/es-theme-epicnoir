@@ -6,7 +6,7 @@
     <text name="nameLabel" extra="true">
     <text>NEC PC-98</text>
   </text>
-</view>    
+</view>
 
 <view name="system">
   <text name="sys_line2" extra="true">
@@ -15,7 +15,7 @@
     <origin>0 0</origin>
     <pos>0.12 0.130</pos>
     <size>0 0</size>
-  </text>    
+  </text>
   <text name="shortdescription" extra="true">
    <text>1982  ·  32-bit Computer</text>
   </text>

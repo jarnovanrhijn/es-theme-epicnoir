@@ -6,7 +6,7 @@
   <text name="nameLabel" extra="true">
     <text>Nintendo WiiU</text>
   </text>
-</view>    
+</view>
 
 <view name="system">
   <text name="sys_line1" extra="true">
