@@ -69,7 +69,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
                 <fontSize>0.021</fontSize>
                 <color>9b9a9a</color>
                 <origin>0 0</origin>
-                <pos>0.12 0.1055</pos>
+                <pos>0.082 0.1055</pos>
                 <size>0.320 0.033</size>
             </text>
 
@@ -78,9 +78,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
                 <alignment>left</alignment>
                 <backgroundColor>00000000</backgroundColor>
                 <forceUppercase>1</forceUppercase>
-                <color>A3332D</color>
+                <color>ff7f00</color>
                 <origin>0 0</origin>
-                <pos>0.12 0.3611</pos>
+                <pos>0.082 0.3611</pos>
                 <size>0.200 0.039</size>
                 <fontSize>0.0315</fontSize>
             </text>
@@ -93,7 +93,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
                 <color>8F8F8F</color>
                 <lineSpacing>1.18</lineSpacing>
                 <origin>0 0</origin>
-                <pos>0.12 0.360</pos>
+                <pos>0.082 0.360</pos>
                 <size>0.28 0.20</size>
             </text>
 
@@ -101,7 +101,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
                 <path>./_art/var/button.svg</path>
                 <tile>false</tile>
                 <origin>0 0</origin>
-                <pos>0.12 0.545</pos>
+                <pos>0.082 0.545</pos>
                 <size>0 0.044</size>
             </image>
 
@@ -118,7 +118,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
                 <path>./_art/controllers/${system.theme}.png</path>
                 <tile>false</tile>
                 <origin>0 0</origin>
-                <pos>0.12 0.61</pos>
+                <pos>0.082 0.51</pos>
                 <maxSize>0.32 0.32</maxSize>
             </image>
         </view>
@@ -130,6 +130,14 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <path>./_art/ingame-global-bg.jpg</path>
             <size>1 1</size>
             <pos>0 0</pos>
+        </image>
+
+        <image name="logo">
+            <tile>false</tile>
+            <origin>0 0.5</origin>
+            <pos>0.029 0.04</pos>
+            <maxSize>0.150 0.046</maxSize>
+            <path>./_art/logos/${system.theme}.svg</path>
         </image>
 
         <textlist name="gamelist">
@@ -146,28 +154,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <lineSpacing>1.683</lineSpacing>
             <horizontalMargin>0.02864</horizontalMargin>
         </textlist>
-
-        <text name="top_label" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <text>Select Game</text>
-            <alignment>left</alignment>
-            <color>F8F8F8</color>
-            <fontSize>0.034</fontSize>
-            <origin>0 0</origin>
-            <pos>0.029 0</pos>
-            <size>0.20 0.08</size>
-        </text>
-
-        <text name="nameLabel" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <alignment>left</alignment>
-            <forceUppercase>1</forceUppercase>
-            <color>ffffff</color>
-            <fontSize>0.036</fontSize>
-            <origin>0 0</origin>
-            <pos>0.429 0</pos>
-            <size>0.40 0.075</size>
-        </text>
 
         <text name="md_description">
             <fontPath>./_art/Acre.otf</fontPath>
@@ -227,7 +213,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         </text>
 
         <text name="md_genre">
-            <pos>0.1217 0.932</pos>
+            <pos>0.8217 0.932</pos>
             <size>0.4 0.07</size>
         </text>
 
@@ -274,6 +260,12 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         </text>
 
         <!-- Hidden Elements -->
+        <text name="nameLabel" extra="true">
+            <origin>1 1</origin>
+            <pos>0 0</pos>
+            <color>00000000</color>
+        </text>
+
         <text name="shortdescription, longdescription" extra="true">
             <origin>1 1</origin>
             <pos>0 0</pos>
